@@ -1,7 +1,7 @@
 
-This week's topic is Breadth-First Search.
-
 **Weekly Problem**
+
+This week's topic is Breadth-First Search. One of the less difficult LeetCode problems that is best solved using BFS is associated with finding the minimum depth of a binary tree.
 
 Minimum Depth of Binary Tree (LC #111)
 
