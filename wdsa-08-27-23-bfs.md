@@ -119,7 +119,8 @@ LeetCode problems best solved with BFS
 -   The Maze II (Problem #505) 
 [https://leetcode.com/problems/the-maze-ii/](https://leetcode.com/problems/the-maze-ii/)
     
--   The Maze III (Problem #499) 
+-   The Maze III (Problem #499)
+  
 [https://leetcode.com/problems/the-maze-iii/](https://leetcode.com/problems/the-maze-iii/)
     
 -   Cheapest Flights Within K Stops (Problem #787) 
