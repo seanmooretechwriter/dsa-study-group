@@ -4,7 +4,7 @@
 This week's topic is Breadth-First Search. 
 
  - BFS explores nodes in layers, starting from the initial node and moving outward to its neighbors before visiting their neighbors.
- - It uses a queue data structure to maintain the order of nodes to be visited.
+ - It uses a [queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structure to maintain the order of nodes to be visited.
  - BFS guarantees the shortest path to a target node in an unweighted graph.
  - BFS is complete, meaning it will find a target node if it exists in the graph.
  - It can be used to determine connected components in an undirected graph.
