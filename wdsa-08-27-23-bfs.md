@@ -1,7 +1,19 @@
 
 **Weekly Problem**
 
-This week's topic is Breadth-First Search. One of the less difficult LeetCode problems that is best solved using BFS is associated with finding the minimum depth of a binary tree.
+This week's topic is Breadth-First Search. 
+
+ - BFS explores nodes in layers, starting from the initial node and moving outward to its neighbors before visiting their neighbors.
+ - It uses a queue data structure to maintain the order of nodes to be visited.
+ - BFS guarantees the shortest path to a target node in an unweighted graph.
+ - BFS is complete, meaning it will find a target node if it exists in the graph.
+ - It can be used to determine connected components in an undirected graph.
+ - BFS is less memory-efficient than Depth-First Search (DFS) due to the need to store all neighboring nodes in the queue.
+ - It's commonly used in algorithms related to graphs, such as finding the shortest path or traversing a tree or graph level by level.
+ - BFS can be implemented iteratively or recursively, with the iterative approach being more common.
+ - It's a foundational algorithm in computer science and forms the basis for more advanced graph algorithms.
+
+One of the less difficult LeetCode problems that is best solved using BFS is associated with finding the minimum depth of a binary tree.
 
 Minimum Depth of Binary Tree (LC #111)
 
@@ -33,6 +45,9 @@ https://leetcode.com/problems/minimum-depth-of-binary-tree/
 MIT DSA lecture on BFS.
 
 https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-9-breadth-first-search/
+
+Short BFS video explanation (Ania Kubów)
+https://www.youtube.com/watch?v=CqQ_QDCwDuM
 
 Several Grokking the Coding Interview patterns involve or are about Breadth-First Search (BFS) and related concepts. 
 
