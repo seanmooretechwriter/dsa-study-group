@@ -2,15 +2,23 @@ This week's topic is Breadth-First Search.
 
 ## Breadth-First Search (BFS)
 
-- BFS explores nodes in layers, starting from the initial node and moving outward to its neighbors before visiting their neighbors.
-- It uses a queue data structure to maintain the order of nodes to be visited.
-- BFS guarantees the shortest path to a target node in an unweighted graph.
-- BFS is complete, meaning it will find a target node if it exists in the graph.
-- It can be used to determine connected components in an undirected graph.
-- BFS is less memory-efficient than Depth-First Search (DFS) due to the need to store all neighboring nodes in the queue.
-- It's commonly used in algorithms related to graphs, such as finding the shortest path or traversing a tree or graph level by level.
-- BFS can be implemented iteratively or recursively, with the iterative approach being more common.
-- It's a foundational algorithm in computer science and forms the basis for more advanced graph algorithms.
+Breadth-First Search (BFS) is a fundamental graph traversal algorithm that explores nodes in layers, starting from the initial node and moving outward to its neighbors before visiting their neighbors. It operates by systematically visiting all nodes at a given level before proceeding to the next level.
+
+### Key Characteristics and Usage
+
+- **Queue-Based Approach**: BFS uses a queue data structure to maintain the order of nodes to be visited. This ensures that nodes are visited in the order of their proximity to the starting node, allowing BFS to guarantee the shortest path to a target node in an unweighted graph.
+
+- **Completeness**: BFS is a complete algorithm, meaning it will always find a target node if it exists in the graph. It systematically explores all possible paths in a breadth-first manner.
+
+- **Connected Components**: In undirected graphs, BFS can be used to determine connected components, helping identify groups of nodes that are connected to each other.
+
+- **Memory Usage**: While BFS is powerful in finding shortest paths and exploring connected components, it tends to be less memory-efficient than Depth-First Search (DFS) because it requires storing all neighboring nodes at each level in the queue.
+
+- **Common Applications**: BFS is commonly used in algorithms related to graphs, such as finding the shortest path between two nodes, solving puzzles, and traversing a tree or graph level by level. It serves as a foundational algorithm in computer science and forms the basis for more advanced graph algorithms.
+
+- **Iterative or Recursive**: BFS can be implemented either iteratively, using a queue, or recursively. The iterative approach is more common in practice due to its efficiency and simplicity.
+
+BFS is a versatile and widely used algorithm for solving various graph-related problems. Its ability to find the shortest path makes it invaluable in applications like route planning, network analysis, and more.
 
 **Weekly Problem**
 Minimum Depth of Binary Tree (LC #111)
