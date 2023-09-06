@@ -92,7 +92,7 @@ The "Connect All Level Order Siblings" problem fits this pattern.
 
 These patterns cover a range of problems involving tree and graph traversal, shortest paths, and topological ordering. While some are directly related to BFS, others incorporate BFS-like ideas to efficiently solve problems.
 
-LeetCode problems best solved with BFS
+## BFS LeetCode problems
 
 Binary Tree Level Order Traversal (Problem #102) 
 

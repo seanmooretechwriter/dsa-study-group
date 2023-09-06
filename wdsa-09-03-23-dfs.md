@@ -101,7 +101,7 @@ Cyclic Graph Detection:
 This pattern focuses on detecting cycles in graphs using DFS to determine whether a given graph is acyclic or has cycles.
 LeetCode Question in Grokking: "Graph Cycle" (Question #6)
 
-LeetCode problems best solved with DFS
+## DFS LeetCode problems
 
 Number of Islands (LeetCode #200)
 
