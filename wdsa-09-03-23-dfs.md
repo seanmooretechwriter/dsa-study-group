@@ -32,7 +32,6 @@ Depth-First Search (DFS) is a fundamental graph traversal algorithm that operate
 
 DFS serves as a foundational algorithm in computer science, forming the basis for various search and traversal algorithms.
 
-
 ## Weekly Problem
 Minimum Depth of Binary Tree (LC #111)
 
@@ -59,7 +58,8 @@ The number of nodes in the tree is in the range [0, 105].
 
 https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
-**Resources**
+## Resources
+
 MIT DSA lecture on DFS.
 
 https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-10-depth-first-search/

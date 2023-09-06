@@ -60,7 +60,8 @@ The number of nodes in the tree is in the range [0, 105].
 
 https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
-**Resources**
+## Resources
+
 MIT DSA lecture on BFS.
 
 https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-9-breadth-first-search/
