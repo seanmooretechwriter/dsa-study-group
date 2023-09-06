@@ -2,7 +2,7 @@ This week's topic is Depth-First Search.
 
 ## Depth-First Search (DFS)
 
-DFS serves as a foundational algorithm in computer science and is the basis for various search and traversal algorithms. It excels in scenarios where systematic exploration of a graph's structure is required, making it invaluable in applications like maze-solving, puzzle-solving, and more.
+Depth-First Search serves as a foundational algorithm in computer science and is the basis for various search and traversal algorithms. It excels in scenarios where systematic exploration of a graph's structure is required, making it invaluable in applications like maze-solving, puzzle-solving, and more.
 
 ### Key Characteristics and Usage
 
@@ -136,6 +136,6 @@ Maximum Depth of Binary Tree (LeetCode #104)
 
 https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
-**Solution**
+## Solution
 
 ======== UPDATE FOR DFS ==========

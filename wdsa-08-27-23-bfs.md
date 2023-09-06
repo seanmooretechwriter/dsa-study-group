@@ -176,7 +176,7 @@ Cheapest Flights Within K Stops (Problem #787)
 
 [https://leetcode.com/problems/cheapest-flights-within-k-stops/](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
-**Solution**
+## Solution
 
 ```
 /**
