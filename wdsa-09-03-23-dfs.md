@@ -11,6 +11,32 @@ This week's topic is Depth-First Search.
 - Recursive DFS can be susceptible to stack overflow errors for very deep graphs, but this can be mitigated with tail recursion or an explicit stack.
 - DFS is foundational in computer science and serves as the basis for various search and traversal algorithms.
 
+**Breadth-First Search (BFS) vs. Depth-First Search (DFS)**
+
+Speed:
+
+In general, BFS can be faster than DFS when searching for the shortest path or finding the minimum depth in a tree or graph. This is because BFS explores nodes level by level, and the first occurrence of the target node usually represents the shortest path. DFS, on the other hand, explores deeply before backtracking, so it may need to traverse more nodes to find the shortest path.
+
+Memory Usage:
+
+BFS typically requires more memory than DFS. This is because BFS uses a queue data structure to store all neighboring nodes at a given level, which can consume a significant amount of memory, especially in graphs with many levels. DFS uses a stack (or recursion) to store nodes, which typically consumes less memory.
+
+Minimum Depth:
+
+When finding the minimum depth of a binary tree, BFS often involves more total iterations than DFS because it explores all nodes at each level. In BFS, you continue traversing until you find the first leaf node, whereas DFS may reach a leaf node sooner. However, the memory requirements for BFS are typically higher, as mentioned earlier.
+
+Traversal Order:
+
+BFS explores nodes level by level in a "breadth-first" order, while DFS explores nodes in a "depth-first" order. The choice between these two algorithms depends on the problem's requirements and the structure of the data.
+
+Completeness:
+
+Both BFS and DFS are complete algorithms, meaning they will eventually find a target node if it exists in the graph or tree. However, the time it takes to find the target may vary.
+
+Application-Specific:
+
+The choice between BFS and DFS often depends on the specific problem and its requirements. For some problems, BFS is more suitable (e.g., finding the shortest path), while for others, DFS may be preferred (e.g., topological sorting).
+
 **Weekly Problem**
 Minimum Depth of Binary Tree (LC #111)
 
