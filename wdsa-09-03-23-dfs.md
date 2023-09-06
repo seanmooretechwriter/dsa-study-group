@@ -22,7 +22,7 @@ DFS serves as a foundational algorithm in computer science and is the basis for 
 
 Depth-First Search (DFS) is a fundamental graph traversal algorithm that operates differently than Breadth-First Search (BFS). While BFS explores nodes in layers, DFS takes a different approach.
 
-**Comparison with Breadth-First Search (BFS)**
+### Comparison with Breadth-First Search (BFS)
 
 - **Traversal Order**: DFS explores nodes in a depth-first order, diving as deeply as possible before backtracking. In contrast, BFS explores nodes in a breadth-first order, moving level by level.
 - **Speed**: While BFS is often faster when searching for the shortest path, DFS excels in certain scenarios, especially when you want to explore all possibilities or when the depth of the tree or graph is limited.
