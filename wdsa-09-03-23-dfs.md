@@ -1,41 +1,21 @@
 This week's topic is Depth-First Search.
 
-- DFS explores nodes by following a single branch as deeply as possible before backtracking to explore other branches.
-- It uses a stack (or recursion) to maintain the order of nodes to be visited, allowing it to go deeper into the graph.
-- DFS does not guarantee the shortest path to a target node, especially in unweighted graphs.
-- DFS is not necessarily complete; it may not find a target node if it exists in the graph, depending on the search strategy.
-- It can be used to explore all nodes in a graph or tree systematically.
-- DFS is generally more memory-efficient than BFS as it doesn't require storing all neighboring nodes at once.
-- It's commonly used for tasks like topological sorting, cycle detection, and depth-first traversal of trees and graphs.
-- DFS can be implemented both iteratively (using a stack) and recursively, with the recursive approach being elegant for trees.
-- Recursive DFS can be susceptible to stack overflow errors for very deep graphs, but this can be mitigated with tail recursion or an explicit stack.
-- DFS is foundational in computer science and serves as the basis for various search and traversal algorithms.
+## Depth-First Search (DFS)
 
-**Breadth-First Search (BFS) vs. Depth-First Search (DFS)**
+DFS is a fundamental graph traversal algorithm used to explore and navigate through a graph or tree data structure. It operates by visiting a starting node and then exhaustively exploring as far as possible along each branch before backtracking to explore other branches. This process continues until all reachable nodes are visited, resulting in a top-down, depth-first exploration of the graph's structure.
 
-Speed:
+DFS is a versatile algorithm with various applications, including graph traversal, topological sorting, pathfinding, and solving puzzles. It can be implemented using either a stack or recursion to keep track of nodes to be visited. One of its key advantages is its memory efficiency, as it doesn't require storing all neighboring nodes at once.
 
-In general, BFS can be faster than DFS when searching for the shortest path or finding the minimum depth in a tree or graph. This is because BFS explores nodes level by level, and the first occurrence of the target node usually represents the shortest path. DFS, on the other hand, explores deeply before backtracking, so it may need to traverse more nodes to find the shortest path.
+**Comparison with Breadth-First Search (BFS)**
 
-Memory Usage:
+- **Traversal Order**: DFS explores nodes in a depth-first order, diving as deeply as possible before backtracking. In contrast, BFS explores nodes in a breadth-first order, moving level by level.
+- **Speed**: While BFS is often faster when searching for the shortest path, DFS excels in certain scenarios, especially when you want to explore all possibilities or when the depth of the tree or graph is limited.
+- **Memory Usage**: BFS typically consumes more memory due to its queue-based approach, whereas DFS is memory-efficient, making it suitable for deep graphs.
+- **Completeness**: Both DFS and BFS are complete algorithms, meaning they will eventually find a target node if it exists in the graph or tree. However, the time it takes to find the target may vary.
+- **Application-Specific**: The choice between BFS and DFS depends on the specific problem and its requirements. BFS is well-suited for finding the shortest path, while DFS is preferred for tasks like topological sorting, cycle detection, and depth-first traversal of trees and graphs.
 
-BFS typically requires more memory than DFS. This is because BFS uses a queue data structure to store all neighboring nodes at a given level, which can consume a significant amount of memory, especially in graphs with many levels. DFS uses a stack (or recursion) to store nodes, which typically consumes less memory.
+DFS serves as a foundational algorithm in computer science, forming the basis for various search and traversal algorithms.
 
-Minimum Depth:
-
-When finding the minimum depth of a binary tree, BFS often involves more total iterations than DFS because it explores all nodes at each level. In BFS, you continue traversing until you find the first leaf node, whereas DFS may reach a leaf node sooner. However, the memory requirements for BFS are typically higher, as mentioned earlier.
-
-Traversal Order:
-
-BFS explores nodes level by level in a "breadth-first" order, while DFS explores nodes in a "depth-first" order. The choice between these two algorithms depends on the problem's requirements and the structure of the data.
-
-Completeness:
-
-Both BFS and DFS are complete algorithms, meaning they will eventually find a target node if it exists in the graph or tree. However, the time it takes to find the target may vary.
-
-Application-Specific:
-
-The choice between BFS and DFS often depends on the specific problem and its requirements. For some problems, BFS is more suitable (e.g., finding the shortest path), while for others, DFS may be preferred (e.g., topological sorting).
 
 **Weekly Problem**
 Minimum Depth of Binary Tree (LC #111)
