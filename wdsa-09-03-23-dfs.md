@@ -2,9 +2,25 @@ This week's topic is Depth-First Search.
 
 ## Depth-First Search (DFS)
 
-DFS is a fundamental graph traversal algorithm used to explore and navigate through a graph or tree data structure. It operates by visiting a starting node and then exhaustively exploring as far as possible along each branch before backtracking to explore other branches. This process continues until all reachable nodes are visited, resulting in a top-down, depth-first exploration of the graph's structure.
+Depth-First Search (DFS) is a fundamental graph traversal algorithm that operates differently than Breadth-First Search (BFS). While BFS explores nodes in layers, DFS takes a different approach.
 
-DFS is a versatile algorithm with various applications, including graph traversal, topological sorting, pathfinding, and solving puzzles. It can be implemented using either a stack or recursion to keep track of nodes to be visited. One of its key advantages is its memory efficiency, as it doesn't require storing all neighboring nodes at once.
+### Key Characteristics and Usage
+
+- **Depth-First Exploration**: DFS explores nodes by following a single branch as deeply as possible before backtracking to explore other branches. It starts at the initial node and dives deep into each branch, only backtracking when no unvisited nodes are left.
+
+- **Stack or Recursion**: DFS can be implemented using either a stack or recursion to keep track of nodes. This stack-based approach allows DFS to explore the depth of the graph effectively.
+
+- **Shortest Path Considerations**: Unlike BFS, DFS does not guarantee the shortest path to a target node, especially in unweighted graphs. Its focus is on systematic exploration rather than finding the shortest path.
+
+- **Completeness**: DFS is a complete algorithm, meaning it will eventually find a target node if it exists in the graph. However, the time taken to find the target may vary based on the search strategy.
+
+- **Memory Efficiency**: DFS is generally more memory-efficient than BFS because it doesn't require storing all neighboring nodes at once. Instead, it keeps track of a stack of nodes, which is memory-efficient, especially for deep graphs.
+
+- **Applications**: DFS is commonly used for tasks like topological sorting, cycle detection, and depth-first traversal of trees and graphs. It is particularly elegant for tree structures.
+
+- **Iterative and Recursive**: DFS can be implemented both iteratively (using a stack) and recursively. The recursive approach is often preferred for trees due to its elegance.
+
+DFS serves as a foundational algorithm in computer science and is the basis for various search and traversal algorithms. It excels in scenarios where systematic exploration of a graph's structure is required, making it invaluable in applications like maze-solving, puzzle-solving, and more.
 
 **Comparison with Breadth-First Search (BFS)**
 
