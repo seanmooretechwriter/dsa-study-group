@@ -2,7 +2,7 @@ This week's topic is Depth-First Search.
 
 ## Depth-First Search (DFS)
 
-Depth-First Search (DFS) is a fundamental graph traversal algorithm that operates differently than Breadth-First Search (BFS). While BFS explores nodes in layers, DFS takes a different approach.
+DFS serves as a foundational algorithm in computer science and is the basis for various search and traversal algorithms. It excels in scenarios where systematic exploration of a graph's structure is required, making it invaluable in applications like maze-solving, puzzle-solving, and more.
 
 ### Key Characteristics and Usage
 
@@ -20,7 +20,7 @@ Depth-First Search (DFS) is a fundamental graph traversal algorithm that operate
 
 - **Iterative and Recursive**: DFS can be implemented both iteratively (using a stack) and recursively. The recursive approach is often preferred for trees due to its elegance.
 
-DFS serves as a foundational algorithm in computer science and is the basis for various search and traversal algorithms. It excels in scenarios where systematic exploration of a graph's structure is required, making it invaluable in applications like maze-solving, puzzle-solving, and more.
+Depth-First Search (DFS) is a fundamental graph traversal algorithm that operates differently than Breadth-First Search (BFS). While BFS explores nodes in layers, DFS takes a different approach.
 
 **Comparison with Breadth-First Search (BFS)**
 
