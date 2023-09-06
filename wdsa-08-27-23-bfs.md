@@ -32,7 +32,8 @@ BFS is a versatile and widely used algorithm for solving various graph-related p
 
  - Application-Specific: The choice between DFS and BFS should align with the specific problem at hand. DFS is well-suited for finding the shortest path and can be adapted for tasks like topological sorting, cycle detection, and depth-first traversal of trees and graphs. Conversely, BFS is more appropriate for tasks where breadth-first exploration is required.
 
-**Weekly Problem**
+
+## Weekly Problem
 
 Minimum Depth of Binary Tree (LC #111)
 
