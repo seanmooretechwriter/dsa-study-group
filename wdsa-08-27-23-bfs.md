@@ -69,68 +69,69 @@ These patterns cover a range of problems involving tree and graph traversal, sho
 
 LeetCode problems best solved with BFS
 
--   Binary Tree Level Order Traversal (Problem #102) 
+Binary Tree Level Order Traversal (Problem #102) 
 [https://leetcode.com/problems/binary-tree-level-order-traversal/](https://leetcode.com/problems/binary-tree-level-order-traversal/)
     
--   Maximum Depth of Binary Tree (Problem #104) 
+Maximum Depth of Binary Tree (Problem #104) 
 [https://leetcode.com/problems/maximum-depth-of-binary-tree/](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
     
--   Minimum Depth of Binary Tree (Problem #111) 
+Minimum Depth of Binary Tree (Problem #111) 
 [https://leetcode.com/problems/minimum-depth-of-binary-tree/](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
     
--   Word Ladder (Problem #127) 
+Word Ladder (Problem #127) 
 [https://leetcode.com/problems/word-ladder/](https://leetcode.com/problems/word-ladder/)
     
--   Binary Tree Zigzag Level Order Traversal (Problem #103) 
+Binary Tree Zigzag Level Order Traversal (Problem #103) 
 [https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
     
--   Course Schedule (Problem #207) 
+Course Schedule (Problem #207) 
 [https://leetcode.com/problems/course-schedule/](https://leetcode.com/problems/course-schedule/)
     
--   Alien Dictionary (Problem #269) 
+Alien Dictionary (Problem #269) 
 [https://leetcode.com/problems/alien-dictionary/](https://leetcode.com/problems/alien-dictionary/)
     
--   Bipartite Graph (Problem #785) 
+Bipartite Graph (Problem #785) 
 [https://leetcode.com/problems/is-graph-bipartite/](https://leetcode.com/problems/is-graph-bipartite/)
     
--   Shortest Path in Binary Matrix (Problem #1091) 
+Shortest Path in Binary Matrix (Problem #1091) 
 [https://leetcode.com/problems/shortest-path-in-binary-matrix/](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
     
--   Open the Lock (Problem #752) 
+Open the Lock (Problem #752) 
 [https://leetcode.com/problems/open-the-lock/](https://leetcode.com/problems/open-the-lock/)
     
--   Rotting Oranges (Problem #994) 
+Rotting Oranges (Problem #994) 
 [https://leetcode.com/problems/rotting-oranges/](https://leetcode.com/problems/rotting-oranges/)
     
--   Number of Islands (Problem #200) 
+Number of Islands (Problem #200) 
 [https://leetcode.com/problems/number-of-islands/](https://leetcode.com/problems/number-of-islands/)
     
--   Jump Game IV (Problem #1345) 
+Jump Game IV (Problem #1345) 
 [https://leetcode.com/problems/jump-game-iv/](https://leetcode.com/problems/jump-game-iv/)
     
--   Perfect Squares (Problem #279) 
+Perfect Squares (Problem #279) 
 [https://leetcode.com/problems/perfect-squares/](https://leetcode.com/problems/perfect-squares/)
     
--   Is Graph Bipartite? (Problem #785) 
+Is Graph Bipartite? (Problem #785) 
 [https://leetcode.com/problems/is-graph-bipartite/](https://leetcode.com/problems/is-graph-bipartite/)
     
--   Snake and Ladders (Problem #909) 
+Snake and Ladders (Problem #909) 
 [https://leetcode.com/problems/snakes-and-ladders/](https://leetcode.com/problems/snakes-and-ladders/)
     
--   Cousins in Binary Tree (Problem #993) 
+Cousins in Binary Tree (Problem #993) 
 [https://leetcode.com/problems/cousins-in-binary-tree/](https://leetcode.com/problems/cousins-in-binary-tree/)
     
--   The Maze II (Problem #505) 
+The Maze II (Problem #505) 
 [https://leetcode.com/problems/the-maze-ii/](https://leetcode.com/problems/the-maze-ii/)
     
--   The Maze III (Problem #499) 
+The Maze III (Problem #499) 
 [https://leetcode.com/problems/the-maze-iii/](https://leetcode.com/problems/the-maze-iii/)
     
--   Cheapest Flights Within K Stops (Problem #787) 
+Cheapest Flights Within K Stops (Problem #787) 
 [https://leetcode.com/problems/cheapest-flights-within-k-stops/](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
 **Solution**
 
+```
 /**
  * 
  * 1.) The function minimumDepthOfBinaryTree takes a treeRoot as input, which is the 
@@ -286,4 +287,5 @@ const root2 = new TreeNode(
 )
 
 log('minimumDepthOfBinaryTree(', root2, ')): ', minimumDepthOfBinaryTree(root2)) // Output: 3
+```
 
