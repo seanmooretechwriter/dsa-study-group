@@ -1,5 +1,7 @@
 This week's topic is Breadth-First Search.
 
+## Breadth-First Search (BFS)
+
 - BFS explores nodes in layers, starting from the initial node and moving outward to its neighbors before visiting their neighbors.
 - It uses a queue data structure to maintain the order of nodes to be visited.
 - BFS guarantees the shortest path to a target node in an unweighted graph.
