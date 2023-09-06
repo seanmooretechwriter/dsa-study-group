@@ -20,6 +20,18 @@ Breadth-First Search (BFS) is a fundamental graph traversal algorithm that explo
 
 BFS is a versatile and widely used algorithm for solving various graph-related problems. Its ability to find the shortest path makes it invaluable in applications like route planning, network analysis, and more.
 
+### Comparison with Depth-First Search (DFS)
+
+Traversal Order: Unlike DFS, which explores nodes in a depth-first manner, BFS traverses nodes in a breadth-first order, visiting all neighboring nodes before diving deeper.
+
+Speed: BFS is generally slower when compared to DFS in various scenarios, particularly when finding the shortest path is not a priority. DFS can be faster in situations where you don't need to explore all possible paths exhaustively.
+
+Memory Usage: DFS tends to consume more memory when used with recursion due to its call stack, while BFS is memory-efficient and preferable for shallow graphs or trees.
+
+Completeness: Both DFS and BFS are complete algorithms, meaning they will eventually find a target node if it exists. However, the time taken to locate the target may differ, with DFS possibly taking less time in certain cases.
+
+Application-Specific: The choice between DFS and BFS should align with the specific problem at hand. DFS is well-suited for finding the shortest path and can be adapted for tasks like topological sorting, cycle detection, and depth-first traversal of trees and graphs. Conversely, BFS is more appropriate for tasks where breadth-first exploration is required.
+
 **Weekly Problem**
 Minimum Depth of Binary Tree (LC #111)
 
