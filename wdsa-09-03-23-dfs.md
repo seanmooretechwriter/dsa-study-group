@@ -65,7 +65,11 @@ MIT DSA lecture on DFS.
 
 https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-10-depth-first-search/
 
-Several Grokking the Coding Interview patterns involve or are about Depth-First Search (DFS) and related concepts. 
+**DFS vs. BFS visualizer**
+
+https://codepen.io/mit6006/full/dgeKEN
+
+**Grokking the Coding Interview patterns**
 
 Depth-First Search (DFS):
 

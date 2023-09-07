@@ -64,11 +64,15 @@ https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
 ## Resources
 
-MIT DSA lecture on BFS.
+**MIT DSA lecture on BFS**
 
 https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-9-breadth-first-search/
 
-Several Grokking the Coding Interview patterns involve or are about Breadth-First Search (BFS) and related concepts. 
+**BFS vs. DFS visualizer**
+
+https://codepen.io/mit6006/full/dgeKEN
+
+**Grokking the Coding Interview patterns**
 
 Tree Breadth-First Search (BFS):
 
