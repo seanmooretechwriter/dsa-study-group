@@ -142,4 +142,71 @@ https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 ## Solution
 
-======== UPDATE FOR DFS ==========
+**DFS using stack:**
+
+```
+const minDepthDFSStack = root => {
+  if (!root) {
+    return 0
+  }
+  const stack = [{ node: root, depth: 1 }]
+  let min = Infinity
+  while (stack.length > 0) {
+    const { node, depth } = stack.pop()
+    if (!node.left && !node.right) {
+      min = Math.min(min, depth)
+    }
+    if (node.right) {
+      stack.push({ node: node.right, depth: depth + 1 })
+    }
+    if (node.left) {
+      stack.push({ node: node.left, depth: depth + 1 })
+    }
+  }
+  return min
+}
+
+log('minDepthDFSStack(): ', minDepthDFSStack(tree))
+
+```
+
+**DFS using recursion (stack[trace] in memory):**
+
+```
+function minDepthDFS (root) {
+  if (!root) {
+    return 0 // Base case: empty tree has depth 0
+  }
+
+  if (!root.left && !root.right) {
+    return 1 // Node with no children has depth 1
+  }
+
+  let min = Infinity
+
+  if (root.left) {
+    min = Math.min(min, minDepthDFS(root.left))
+  }
+
+  if (root.right) {
+    min = Math.min(min, minDepthDFS(root.right))
+  }
+
+  return min + 1 // Add 1 to account for the current node
+}
+
+log('minDepthDFS: ', minDepthDFS(tree))
+
+```
+
+**Tree code to call DFS functions:**
+
+```
+
+const tree = new TreeNode(3)
+tree.left = new TreeNode(9)
+tree.right = new TreeNode(20)
+tree.right.left = new TreeNode(15)
+tree.right.right = new TreeNode(7)
+
+```
