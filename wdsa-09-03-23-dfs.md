@@ -145,6 +145,47 @@ https://leetcode.com/problems/maximum-depth-of-binary-tree/
 **DFS using stack:**
 
 ```
+/**
+ * 1.) The function minDepthDFSStack takes a root node as input, which is the
+ *     root of a binary tree.
+ * 
+ * 2.) It first checks if the root is falsy (null or undefined), which signifies
+ *     an empty tree. In such cases, it returns 0 to indicate a depth of 0.
+ * 
+ * 3.) The stack data structure is used for a Depth-First Search (DFS) traversal
+ *     of the binary tree. It initializes with an object containing the root node
+ *     and a depth of 1.
+ * 
+ * 4.) The variable 'min' is initialized with Infinity to keep track of the minimum
+ *     depth found during traversal.
+ * 
+ * 5.) The while loop continues as long as there are nodes in the stack to process.
+ * 
+ * 6.) In each iteration of the loop, a node and its depth are popped from the stack.
+ * 
+ * 7.) If the node is a leaf node (both left and right children are null), the
+ *     depth is compared with the current minimum depth ('min'), and the minimum
+ *     depth is updated accordingly.
+ * 
+ * 8.) If the node has a right child, it is pushed onto the stack with an increased
+ *     depth.
+ * 
+ * 9.) If the node has a left child, it is pushed onto the stack with an increased
+ *     depth. Note that the left child is pushed after the right child, ensuring
+ *     a Depth-First traversal.
+ * 
+ * 10.) The loop continues until all nodes in the stack are processed.
+ * 
+ * 11.) Finally, the function returns the minimum depth found during traversal.
+ * 
+ * 12.) For an empty tree, the function returns 0.
+ * 
+ * In this code, DFS is used to traverse the binary tree depth-first. The stack
+ * data structure stores nodes to be processed, and child nodes are pushed onto
+ * the stack for deeper traversal. The minimum depth is determined by finding the
+ * first leaf node encountered, and this value is updated as needed.
+ */
+
 const minDepthDFSStack = root => {
   if (!root) {
     return 0
